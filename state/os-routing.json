@@ -1,0 +1,13 @@
+{
+  "routes": [
+    { "ui": "/jaup-os/hub", "api": "/api/swarm" },
+    { "ui": "/jaup-os/drive", "api": "/api/drive" },
+    { "ui": "/jaup-os/security", "api": "/api/security" },
+    { "ui": "/jaup-os/swarm", "api": "/api/swarm" },
+    { "ui": "/jaup-os/agents", "api": "/api/agents" },
+    { "ui": "/jaup-os/workspace", "api": "/api/agents" },
+    { "ui": "/jaup-os/music", "api": "/api/drive" },
+    { "ui": "/jaup-os/trading", "api": "/api/agents" },
+    { "ui": "/jaup-os/hustles", "api": "/api/drive" }
+  ]
+}

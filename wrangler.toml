@@ -1,0 +1,30 @@
+name = "jaup"
+compatibility_date = "2024-06-01"
+compatibility_flags = ["nodejs_compat"]
+
+pages_build_output_dir = ".vercel/output/static"
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = ".vercel/output/static"
+
+[vars]
+JAUP_ENV = "production"
+
+[[kv_namespaces]]
+binding = "JAUP_KV"
+id = "jaup_kv"
+
+[[kv_namespaces]]
+binding = "JAUP_DRIVE"
+id = "jaup_drive"
+
+[[durable_objects]]
+name = "JAUPState"
+class_name = "JAUPState"
+
+[[durable_objects]]
+name = "SwarmState"
+class_name = "SwarmState"

@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "agents": [
+    {
+      "name": "BaseAgent",
+      "role": "Default handler",
+      "path": "./core/agents/base-agent.ts",
+      "status": "active"
+    }
+  ]
+}

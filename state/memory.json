@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "identity": {
+    "name": "JAUP-Brain",
+    "role": "Orchestrator",
+    "owner": "Philly's J-Roc"
+  },
+  "long_term": [],
+  "short_term": [],
+  "config": {
+    "max_short_term": 64,
+    "max_long_term": 1024
+  }
+}

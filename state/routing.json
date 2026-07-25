@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "routes": [
+    {
+      "name": "drive",
+      "path": "./app/api/drive/route.ts",
+      "agent": "BaseAgent"
+    },
+    {
+      "name": "security",
+      "path": "./app/api/security/route.ts",
+      "agent": "BaseAgent"
+    },
+    {
+      "name": "swarm",
+      "path": "./app/api/swarm/route.ts",
+      "agent": "BaseAgent"
+    }
+  ]
+}

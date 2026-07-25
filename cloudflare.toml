@@ -1,0 +1,11 @@
+name = "jauphub"
+main = "core/swarm-do.ts"
+compatibility_date = "2024-07-01"
+
+[durable_objects]
+bindings = [
+  { name = "SWARM_DO", class_name = "SwarmDO" }
+]
+
+[vars]
+ENV = "production"
