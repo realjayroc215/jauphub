@@ -1,0 +1,15 @@
+import { createClient } from "redis";
+
+export const redis = createClient({
+  url: process.env.REDIS_URL,
+  password: process.env.REDIS_PASSWORD
+});
+
+redis.on("error", err => console.error("Redis Error:", err));
+
+export async function connectRedis() {
+  if (!redis.isOpen) {
+    await redis.connect();
+    console.log("JAUP Redis connected");
+  }
+}
